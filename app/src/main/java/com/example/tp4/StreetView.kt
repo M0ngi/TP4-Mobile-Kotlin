@@ -35,5 +35,6 @@ class StreetView : AppCompatActivity() {
         viewModel.scheduleForStop(stopName).observe(this) {
             busStopAdapter.updateList(it)
         }
+
     }
 }
